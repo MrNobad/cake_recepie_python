@@ -12,5 +12,5 @@ class TestCakeShop(unittest.TestCase):
     def test_cake_shop_has_cakes(self):
         self.assertEquals(3, len(self.cakeShop.cakes))
 
-if __name__ == '__main__': 
+if __name__ == '__main__':
     unittest.main()
